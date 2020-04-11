@@ -1,0 +1,13 @@
+/home/ghostx/Desktop/Aki/Aki/bin/Debug/netcoreapp3.1/Aki
+/home/ghostx/Desktop/Aki/Aki/bin/Debug/netcoreapp3.1/Aki.deps.json
+/home/ghostx/Desktop/Aki/Aki/bin/Debug/netcoreapp3.1/Aki.runtimeconfig.json
+/home/ghostx/Desktop/Aki/Aki/bin/Debug/netcoreapp3.1/Aki.runtimeconfig.dev.json
+/home/ghostx/Desktop/Aki/Aki/bin/Debug/netcoreapp3.1/Aki.dll
+/home/ghostx/Desktop/Aki/Aki/bin/Debug/netcoreapp3.1/Aki.pdb
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.csprojAssemblyReference.cache
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.csproj.CoreCompileInputs.cache
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.AssemblyInfoInputs.cache
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.AssemblyInfo.cs
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.dll
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.pdb
+/home/ghostx/Desktop/Aki/Aki/obj/Debug/netcoreapp3.1/Aki.genruntimeconfig.cache
