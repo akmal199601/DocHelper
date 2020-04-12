@@ -8,7 +8,7 @@ namespace Aki
         {
             string password = "akmal the best".ToLower();
             string passwordexpert = "aki".ToLower();
-            Console.WriteLine("Введите пароль:");
+            Console.WriteLine("Введите пароль: ");
             string inpass = Console.ReadLine().ToLower();
             if (inpass == password)
             {
