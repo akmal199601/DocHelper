@@ -22,6 +22,54 @@ namespace Aki
             {
                 BaseAccess();
             }
+            Console.Clear();
+            Player();
+            Console.Clear();
+            Recorder();
+        }
+        static void Player()
+        {
+            bool vkl = true;
+            PlayMusic pl = new PlayMusic();
+            while (vkl)
+            {
+                Console.WriteLine("Добро пожаловать в плейр");
+                Console.WriteLine("1 для воспроизведения\n2 для паузы \n3 для стопа \n4 для выхода");
+                int chs = int.Parse(Console.ReadLine());
+                switch (chs)
+                {
+                    case 1:
+                        pl.Play(); break;
+                    case 2:
+                        pl.Pause(); break;
+                    case 3:
+                        pl.Stop(); break;
+                    case 4:
+                        vkl = false; break;
+                }
+            }
+        }
+        static void Recorder()
+        {
+            bool vkl = true;
+            RecordMusic rd = new RecordMusic();
+            while (vkl)
+            {
+                Console.WriteLine("Добро пожаловать в плейр");
+                Console.WriteLine("1 для воспроизведения\n2 для паузы \n3 для стопа \n4 для выхода");
+                int chs = int.Parse(Console.ReadLine());
+                switch (chs)
+                {
+                    case 1:
+                        rd.Record(); break;
+                    case 2:
+                        rd.Pause(); break;
+                    case 3:
+                        rd.Stop(); break;
+                    case 4:
+                        vkl = false; break;
+                }
+            }
         }
         static void BaseAccess()
         {
@@ -158,5 +206,49 @@ class ExpertDocumentWorker : ProDocumentWorker
     {
         Console.WriteLine("Документ сохранен в новом формате");
     }
+}
+class PlayMusic : IPlayable
+{
+    public void Pause()
+    {
+        Console.WriteLine("поставить на паузу");
+    }
+
+    public void Stop()
+    {
+        Console.WriteLine("остановить музыку");
+    }
+    public void Play()
+    {
+        Console.WriteLine("остановить музыку");
+    }
+}
+class RecordMusic : IRecordable
+{
+    public void Pause()
+    {
+        Console.WriteLine("поставить на паузу");
+    }
+
+    public void Stop()
+    {
+        Console.WriteLine("остановить музыку");
+    }
+    public void Record()
+    {
+        Console.WriteLine("остановить музыку");
+    }
+}
+interface IPlayable
+{
+    void Play();
+    void Pause();
+    void Stop();
+}
+interface IRecordable
+{
+    void Record();
+    void Pause();
+    void Stop();
 }
 }
